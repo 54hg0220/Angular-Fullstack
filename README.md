@@ -27,7 +27,7 @@ $ git clone https://github.com/54hg0220/SpringBoot-React.git
 ```
 **Database** MySQL8
 ```bash
-# Clone this repository
+# Create employee table in your local db
 $ create table ems
 ```
 
@@ -38,7 +38,7 @@ $ create table ems
 **MainEntry** of the frontend
 use vs code open react-frontend folder, and use following command to enter the app:
 ```bash
-# Clone this repository
+# install dependancies and start front-end
 $ npm install
 npm start 
 ```
