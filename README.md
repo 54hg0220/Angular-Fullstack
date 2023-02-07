@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">Full stack (Spring Boot + React + MySQL8)</h4>
+<h4 align="center">Full stack (Spring Boot + Angular + MySQL8)</h4>
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
