@@ -1,27 +1,47 @@
-# AngularFrontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
+<h1 align="center">
+  Employee Management system
+  <br>
+</h1>
 
-## Development server
+<h4 align="center">Full stack (Spring Boot + Angular + MySQL8)</h4>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#project-structure">Project Structure</a> 
+</p>
 
-## Code scaffolding
+## Key Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* View all profiles 
+* Create new profile
+* Delete profile from the data source
+* Edit profile by ID
 
-## Build
+## How To Use
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+# Clone this repository
+$ git clone https://github.com/54hg0220/SpringBoot-React.git
+```
+**Database** MySQL8
+```bash
+# Create employee table in your local db
+$ create table ems
+```
 
-## Running unit tests
+**MainEntry** of the backend
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![backend.png](backend.png)
 
-## Running end-to-end tests
+**MainEntry** of the frontend
+use vs code open react-frontend folder, and use following command to enter the app:
+```bash
+# install dependancies and start front-end
+$ npm install
+npm start 
+```
+## Project Structure 
+![87fc0b065fbc7760890a50726c5cfc4.png](87fc0b065fbc7760890a50726c5cfc4.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
